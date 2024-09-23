@@ -17,7 +17,7 @@ $ uptime
 
 여기서 평균 부하에 대해 심층적으로 알아보았습니다.
 
-### 프로세스 상태
+### 🏃 프로세스 상태
 
 - `Runnable` : CPU를 사용 중이거나 CPU를 기다리는 프로세스 
     - R state
@@ -27,7 +27,7 @@ $ uptime
     - 중단될 수 없으며, 보통 Disk I/O를 기다립니다.  
     - D state  
 
-### Average Load와 CPU 개수
+### ✨ Average Load와 CPU 개수
 
 Average Load는 활성 프로세스의 평균 수입니다. 따라서 Average Load 값이 클수록 더 많은 프로세스가 활동 중이거나 자원을 기다리고 있는 상태를 의미합니다.
 
@@ -41,7 +41,7 @@ Average Load는 활성 프로세스의 평균 수입니다. 따라서 Average Lo
 
 시스템의 CPU 수와 비교하여 Average Load가 더 크다면, CPU는 과부하 상태일 수 있습니다.
 
-### 평가
+### 🔖 평가
 
 Average Load 값의 추세를 보아 시스템 상태를 파악할 수 있습니다.
 
@@ -49,7 +49,7 @@ Average Load 값의 추세를 보아 시스템 상태를 파악할 수 있습니
 - **1분 값이 15분 값보다 낮으면** 최근 부하가 감소 중.
 - **1분 값이 15분 값보다 높으면** 최근 부하가 증가 중.
 
-### CPU 사용량 vs. Average Load
+### 🆚 CPU 사용량 vs. Average Load
 
 그렇다면 CPU 사용량과 평균 부하는 같은 의미일까요?
 
@@ -301,6 +301,6 @@ CPU-Bound 작업으로 Average Load가 증가하는 것을 알 수 있습니다.
 
 CPU와 I/O 부하가 Average Load에 미치는 영향을 학습하고, 다양한 도구를 활용하여 부하의 원인을 분석하는 방법을 익힐 수 있었습니다.
 
-## 참고자료
+## 🗒️ 참고자료
 [Deep Understanding of Average Load in Linux](https://blog.devgenius.io/deep-understanding-of-average-load-in-linux-74822e1dbcb1)
 
