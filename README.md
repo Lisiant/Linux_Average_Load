@@ -300,3 +300,7 @@ CPU-Bound 작업으로 Average Load가 증가하는 것을 알 수 있습니다.
 테스트를 통해 Average Load가 무엇인지 알아보고, 해당 개념이 단순한 CPU 사용률 이상의 의미를 가진다는 것을 알 수 있었습니다.
 
 CPU와 I/O 부하가 Average Load에 미치는 영향을 학습하고, 다양한 도구를 활용하여 부하의 원인을 분석하는 방법을 익힐 수 있었습니다.
+
+## 참고자료
+[Deep Understanding of Average Load in Linux](https://blog.devgenius.io/deep-understanding-of-average-load-in-linux-74822e1dbcb1)
+
