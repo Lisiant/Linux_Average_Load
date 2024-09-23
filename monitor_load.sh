@@ -16,6 +16,6 @@ while true; do
         prev_load=$current_load
     fi
 
-    # 5초 대기 (주기적 실행)
+    # 2초 대기 (주기적 실행)
     sleep 2
 done
